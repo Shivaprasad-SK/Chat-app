@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./Home.css";
 import io from "socket.io-client";
-const socket = io();
+const socket = io("https://chatappbackend-azx4.onrender.com");
 
 function Home() {
   // const [count, setCount] = useState(0);
