@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./Home.css";
 import io from "socket.io-client";
-const socket = io("https://chat-app-5zqy.vercel.app/");
+const socket = io();
 
 function Home() {
   // const [count, setCount] = useState(0);
